@@ -1,0 +1,6 @@
+cameras:
+  - name: coffee machine
+
+detectors:
+  - name: coffee_detector
+    query: "Is the coffee filter (the gray circle) free of coffee grounds?"
