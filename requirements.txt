@@ -3,7 +3,7 @@ black==23.12.1
 certifi==2024.2.2
 charset-normalizer==3.3.2
 click==8.1.7
--e git+ssh://git@github.com/positronix-ai/coffee-app.git@da8c70557a21c879b21ae97acf2736960c3cb098#egg=coffee_demo
+-e git+ssh://git@github.com/positronix-ai/coffee-app.git@529a3b11b736862dbb62ab47a8d91b2f997210fe#egg=coffee_demo
 colorama==0.4.6
 framegrab==0.4.6
 frozendict==2.4.0
