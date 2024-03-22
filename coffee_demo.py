@@ -1,6 +1,7 @@
 import logging
 import threading
 import time
+from time import sleep
 import traceback
 from collections import deque
 from typing import Union
@@ -34,6 +35,7 @@ def main():
     while True:
         frame = cam.grab()
         result = gl.ask_ml(det, frame)
+        sleep(60)
         # notifications can be configured manually in the Groundlight web interface
 
 if __name__ == "__main__":
